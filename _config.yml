@@ -102,4 +102,7 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: git@github.com:nazp-team/blog.git # 貼上剛剛複製的 Github Repository 網址
+  branch: main # 預設分支名稱
+  message:
