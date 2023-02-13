@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Nazp Blog
 subtitle: ""
 description: ""
 keywords:
-author: John Doe
-language: en
+author: Lazp & Nash
+language: zh-TW
 timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://nazp-team.github.io/blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,5 +104,5 @@ theme: butterfly
 deploy:
   type: git
   repo: git@github.com:nazp-team/blog.git # 貼上剛剛複製的 Github Repository 網址
-  branch: main # 預設分支名稱
+  branch: gh-pages # 預設分支名稱
   message:
