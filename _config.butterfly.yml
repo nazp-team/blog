@@ -753,7 +753,7 @@ darkmode:
   enable: true
   # Toggle Button to switch dark/light mode
   button: true
-  autoChangeMode: true
+  autoChangeMode: false
 
 # show scroll percent in scroll-to-top button
 rightside_scroll_percent: false
